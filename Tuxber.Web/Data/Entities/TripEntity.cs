@@ -44,6 +44,8 @@ namespace Tuxber.Web.Data.Entities
         public TaxiEntity Taxi { get; set; }
 
         public ICollection<TripDetailsEntity> TripDetails  { get; set; }
+
+        public UserEntity User { get; set; }
     }
 }
 
