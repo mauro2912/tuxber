@@ -33,7 +33,13 @@ namespace Tuxber.Web.Data
             await CheckTaxisAsync(driver, user1, user2);
         }
 
-        private async Task<UserEntity> CheckUserAsync(string document, string firstName, string lastName, string email, string phone, string address, UserType userType)
+        private async Task<UserEntity> CheckUserAsync(string document, 
+                                                      string firstName, 
+                                                      string lastName, 
+                                                      string email, 
+                                                      string phone, 
+                                                      string address, 
+                                                      UserType userType)
         {
             var user = await _userHelper.GetUserByEmailAsync(email);
             if (user == null)
