@@ -91,19 +91,19 @@ namespace Tuxber.Cross.Android
 			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::Tuxber.Cross.Android.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::Tuxber.Cross.Android.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::Tuxber.Cross.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.actions = global::Tuxber.Cross.Android.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.action_container = global::Tuxber.Cross.Android.Resource.Id.action_container;
 			global::Xamarin.Essentials.Resource.Id.action_divider = global::Tuxber.Cross.Android.Resource.Id.action_divider;
 			global::Xamarin.Essentials.Resource.Id.action_image = global::Tuxber.Cross.Android.Resource.Id.action_image;
 			global::Xamarin.Essentials.Resource.Id.action_text = global::Tuxber.Cross.Android.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.actions = global::Tuxber.Cross.Android.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.all = global::Tuxber.Cross.Android.Resource.Id.all;
 			global::Xamarin.Essentials.Resource.Id.async = global::Tuxber.Cross.Android.Resource.Id.async;
 			global::Xamarin.Essentials.Resource.Id.blocking = global::Tuxber.Cross.Android.Resource.Id.blocking;
 			global::Xamarin.Essentials.Resource.Id.bottom = global::Tuxber.Cross.Android.Resource.Id.bottom;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::Tuxber.Cross.Android.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::Tuxber.Cross.Android.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::Tuxber.Cross.Android.Resource.Id.browser_actions_menu_item_icon;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::Tuxber.Cross.Android.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::Tuxber.Cross.Android.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::Tuxber.Cross.Android.Resource.Id.browser_actions_menu_view;
 			global::Xamarin.Essentials.Resource.Id.center = global::Tuxber.Cross.Android.Resource.Id.center;
 			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::Tuxber.Cross.Android.Resource.Id.center_horizontal;
@@ -158,14 +158,12 @@ namespace Tuxber.Cross.Android
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::Tuxber.Cross.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::Tuxber.Cross.Android.Resource.Style.Widget_Compat_NotificationActionText;
 			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::Tuxber.Cross.Android.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Tuxber.Cross.Android.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::Tuxber.Cross.Android.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::Tuxber.Cross.Android.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::Tuxber.Cross.Android.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::Tuxber.Cross.Android.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
@@ -174,13 +172,8 @@ namespace Tuxber.Cross.Android
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Tuxber.Cross.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont_android_font;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
@@ -192,7 +185,16 @@ namespace Tuxber.Cross.Android
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::Tuxber.Cross.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::Tuxber.Cross.Android.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem_android_offset;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_centerColor;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_centerX;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_centerY;
@@ -205,9 +207,7 @@ namespace Tuxber.Cross.Android
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::Tuxber.Cross.Android.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::Tuxber.Cross.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Tuxber.Cross.Android.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
 		public partial class Animation
