@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Tuxber.Web;
 using Tuxber.Web.Data;
 
-namespace Taxi.Web
+namespace Tuxber.Web
 {
     public class Program
     {

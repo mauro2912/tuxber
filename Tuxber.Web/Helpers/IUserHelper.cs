@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using Tuxber.Web.Data.Entities;
+using Tuxber.Web.Models;
 
 namespace Tuxber.Web.Helpers
 {
@@ -15,6 +16,10 @@ namespace Tuxber.Web.Helpers
         Task AddUserToRoleAsync(UserEntity user, string roleName);
 
         Task<bool> IsUserInRoleAsync(UserEntity user, string roleName);
+
+        Task<SignInResult> LoginAsync(LoginViewModel model);
+
+        Task LogoutAsync();
     }
 }
 
