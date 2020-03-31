@@ -53,7 +53,7 @@ namespace Tuxber.Prism.ViewModels
                 {
                     Icon = "ic_report",
                     PageName = "ReportPage",
-                    Title = "Report an incident"
+                    Title = "Report an Issue"
                 },
                 new Menu
                 {
