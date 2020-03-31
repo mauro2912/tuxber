@@ -32,9 +32,9 @@ namespace Tuxber.Web.Helpers
                         Latitude = td.Latitude,
                         Longitude = td.Longitude
                     }).ToList(),
-                    User = ToUserResponse(t.User)
+                    User = ToUserResponse(t.User) // User
                 }).ToList(),
-                User = ToUserResponse(taxiEntity.User)
+                User = ToUserResponse(taxiEntity.User) // Taxi driver
             };
         }
 

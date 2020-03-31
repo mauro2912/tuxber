@@ -24,6 +24,12 @@ namespace Tuxber.Web.Controllers.API
             _converterHelper = converterHelper;
         }
 
+        [HttpGet]
+        public IEnumerable<TaxiEntity> GetTaxis()
+        {
+            return _context.Taxis;
+        }
+
         [HttpGet("{plaque}")]
         public async Task<IActionResult> GetTaxiEntity([FromRoute] string plaque)
         {
@@ -34,11 +40,11 @@ namespace Tuxber.Web.Controllers.API
 
             plaque = plaque.ToUpper();
             TaxiEntity taxiEntity = await _context.Taxis
-                       .Include(t => t.User)
+                       .Include(t => t.User) // Driver
                        .Include(t => t.Trips)
                        .ThenInclude(t => t.TripDetails)
                        .Include(t => t.Trips)
-                       .ThenInclude(t => t.User)
+                       .ThenInclude(t => t.User) // Passanger
                        .FirstOrDefaultAsync(t => t.Plaque == plaque);
 
             if (taxiEntity == null)

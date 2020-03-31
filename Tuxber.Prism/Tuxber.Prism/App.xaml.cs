@@ -25,6 +25,13 @@ namespace Tuxber.Prism
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>();
+            containerRegistry.RegisterForNavigation<TaxiMasterDetailPage, TaxiMasterDetailPageViewModel>();
+            containerRegistry.RegisterForNavigation<TaxiHistoryPageViewModel, TaxiHistoryPageViewModelViewModel>();
+            containerRegistry.RegisterForNavigation<TaxiHistoryPage, TaxiHistoryPageViewModel>();
+            containerRegistry.RegisterForNavigation<GroupPage, GroupPageViewModel>();
+            containerRegistry.RegisterForNavigation<ModifyUserPage, ModifyUserPageViewModel>();
+            containerRegistry.RegisterForNavigation<ReportPage, ReportPageViewModel>();
+            containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
         }
     }
 }
