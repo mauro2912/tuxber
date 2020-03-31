@@ -9,10 +9,9 @@ namespace Tuxber.Prism.ViewModels
 {
     public class HomePageViewModel : ViewModelBase
     {
-        public HomePageViewModel(INavigationService navigationService) 
-            : base(navigationService)
+        public HomePageViewModel(INavigationService navigationService) : base(navigationService)
         {
-            Title = "Tuxber";
+            Title = "Tuxber.";
         }
     }
 }

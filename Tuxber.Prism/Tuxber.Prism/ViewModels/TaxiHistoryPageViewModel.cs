@@ -1,16 +1,17 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Tuxber.Prism.ViewModels
 {
-    public class TaxiHistoryPageViewModel : BindableBase
+    public class TaxiHistoryPageViewModel : ViewModelBase
     {
-        public TaxiHistoryPageViewModel()
+        public TaxiHistoryPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-
+            Title = "Taxi history trips";
         }
     }
 }

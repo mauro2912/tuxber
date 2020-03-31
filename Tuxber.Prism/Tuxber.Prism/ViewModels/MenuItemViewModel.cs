@@ -7,7 +7,7 @@ using Tuxber.Common.Models;
 
 namespace Tuxber.Prism.ViewModels
 {
-    class MenuItemViewModel : Menu
+    public class MenuItemViewModel : Menu
     {
         private readonly INavigationService _navigationService;
         private DelegateCommand _selectMenuCommand;

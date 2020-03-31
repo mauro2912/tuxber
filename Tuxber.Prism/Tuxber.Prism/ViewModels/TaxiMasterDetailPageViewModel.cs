@@ -17,6 +17,8 @@ namespace Tuxber.Prism.ViewModels
             LoadMenus();
         }
 
+        //public ObservableCollection<MenuItemViewModel> Menus { get; set; }
+
         public ObservableCollection<MenuItemViewModel> Menus { get; set; }
 
         private void LoadMenus()
